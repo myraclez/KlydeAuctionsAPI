@@ -11,10 +11,6 @@ import java.util.UUID;
 
 public interface AuctionService {
 
-	void shutdownAuctionHouse();
-
-	void enableAuctionHouse();
-
 	List<AuctionModel> getActiveAuctions();
 
 	List<AuctionModel> getActiveAuctions(String search);
