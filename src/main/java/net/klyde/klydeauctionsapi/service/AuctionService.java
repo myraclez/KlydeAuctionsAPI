@@ -3,7 +3,6 @@ package net.klyde.klydeauctionsapi.service;
 import net.klyde.klydeauctionsapi.model.AuctionModel;
 import net.klyde.klydeauctionsapi.model.CancelResponse;
 import net.klyde.klydeauctionsapi.model.PurchaseResponse;
-import net.klyde.klydeauctionsapi.model.RemoveResponse;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.List;
@@ -22,7 +21,7 @@ public interface AuctionService {
 
 	Optional<AuctionModel> getAuctionById(UUID id);
 
-	RemoveResponse removeAuction(UUID id);
+	Optional<AuctionModel> removeAuction(UUID id);
 
 	CancelResponse cancelAuction(UUID auctionId);
 }
