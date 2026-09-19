@@ -1,7 +1,7 @@
 package net.klyde.klydeauctionsapi.service;
 
 import net.klyde.klydeauctionsapi.model.AuctionModel;
-import net.klyde.klydeauctionsapi.model.CancelResponse;
+import net.klyde.klydeauctionsapi.model.ExpireResponse;
 import net.klyde.klydeauctionsapi.model.PurchaseResponse;
 import org.bukkit.inventory.ItemStack;
 
@@ -23,5 +23,5 @@ public interface AuctionService {
 
 	Optional<AuctionModel> removeAuction(UUID id);
 
-	CancelResponse cancelAuction(UUID auctionId);
+	ExpireResponse expireAuction(UUID auctionId);
 }

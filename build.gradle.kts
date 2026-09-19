@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "net.klyde.klydeauctionsapi"
-version = "1.0.6"
+version = "1.0.7"
 
 repositories {
     maven("https://repo.papermc.io/repository/maven-public/")

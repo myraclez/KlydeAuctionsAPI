@@ -1,6 +1,6 @@
 package net.klyde.klydeauctionsapi.model;
 
-public enum CancelResponse {
+public enum ExpireResponse {
 	SUCCESS,
 	AUCTION_NOT_FOUND,
 	ALREADY_EXPIRED,
