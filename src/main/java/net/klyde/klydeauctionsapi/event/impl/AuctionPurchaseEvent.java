@@ -14,7 +14,7 @@ public class AuctionPurchaseEvent extends AuctionEvent {
 		this.buyer = buyer;
 	}
 
-	AuctionPlayer getBuyer() {
+	public AuctionPlayer getBuyer() {
 		return this.buyer;
 	}
 }
