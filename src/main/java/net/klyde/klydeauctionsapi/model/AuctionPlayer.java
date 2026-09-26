@@ -16,7 +16,13 @@ public interface AuctionPlayer {
 
 	double getTotalEarned();
 
-	void increaseTotalSpent();
+	void setQuickSell(boolean value);
 
-	void increaseTotalEarned();
+	void setQuickBuy(boolean value);
+
+	void setNotifications(boolean value);
+
+	void increaseTotalSpent(double amount);
+
+	void increaseTotalEarned(double amount);
 }
