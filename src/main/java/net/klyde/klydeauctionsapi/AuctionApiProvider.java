@@ -1,6 +1,6 @@
 package net.klyde.klydeauctionsapi;
 
-public class AuctionApiProvider {
+public final class AuctionApiProvider {
 
 	private static AuctionApi instance;
 
